@@ -9,7 +9,7 @@ class form extends dvid {
 		$xml = simplexml_load_file($this->xml) or die('Hubo un problema cargando los datos;');
 		#$xml->enctype = "ENCTYPE='multipart/form-data'";
 		$form  = "<div class='page-header'><h2>".$xml->title['h2']."<small>".$xml->title['small']."</small></h2></div>";
-		$form .= "<div class='row'><div class='span12'>".$xml->description."</div></div>";
+		$form .= "<div class='row-fluid'><div class='span12'>".$xml->description."</div></div>";
 		$form .= "<form name=".$xml['name']." id=form action='?".$this->get_currentloc()."' method=post ".$xml->enctype." class='well'>\n";
 		$fields = $xml->field;
 		foreach($fields as $f){
@@ -65,7 +65,8 @@ class form extends dvid {
 		if(isset($f['table'])){
 			if(isset($f['field'])){ $t2 = $f['field']; }else{ $t2 = 'name';}
 			if($f['restriction']=='usr_id'){ $restriction = " usr_id = '".$_SESSION['usr']['id']."'" ;}
-			$t1 = "SELECT id as id, $t2 as text FROM ".$f['table']." WHERE 1 = 1 AND ".$f["condition"]." ".$restriction;
+			if(isset($f["condition"])){$f["condition"] = ' AND '.$f["condition"];}	
+			$t1 = "SELECT id as id, $t2 as text FROM ".$f['table']." WHERE 1 = 1  ".$f["condition"]." ".$restriction;
 			$t1 = $this->q2ar($t1);
 			if(is_array($t1)){
 				$input .= $this->option($t1,$f['name']);

@@ -2,7 +2,9 @@
 include './dvid.class.php';
 
 require_once('./controller/mobile_device_detect.php');
+
 $mobile = mobile_device_detect(true,true,true,true,true,true,true,false,false);
+
 if($mobile){
 	$array[0]['css'] = " <link rel='stylesheet' type='text/css' href='css/mobile.css' />";
 }else{

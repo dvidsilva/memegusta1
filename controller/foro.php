@@ -1,13 +1,13 @@
 <?
 /*Manage common sql operations**/
-include('./form.php');
+require_once('./form.php');
 class foro extends dvid{
 	public function __construct(){
-			$this->table  = "forum_post";
-			$this->action = "insert";
-			$this->return = "I";
-			$this->file   = "add.xml";
-			$this->template = 'blank.html';
+		$this->table  = "forum_post";
+		$this->action = "insert";
+		$this->return = "I";
+		$this->file   = "add.xml";
+		$this->template = 'blank.html';
 		$this->success = 'La Categoria fue creado exitosamente con id ';
 	}
 	public function add(){
