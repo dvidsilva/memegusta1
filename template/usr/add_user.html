@@ -1,0 +1,38 @@
+<script type="text/javascript" src="js/calendarDateInput.js">
+
+/***********************************************
+* Jason's Date Input Calendar- By Jason Moon http://calendar.moonscript.com/dateinput.cfm
+* Script featured on and available at http://www.dynamicdrive.com
+* Keep this notice intact for use.
+***********************************************/
+</script>
+<script type="text/javascript" src="js/validator.js">
+</script>
+<div class='span8 shadow' >
+	<div class='page-header'>
+		<h2>Crea un usuario <small> y accede a el mejor contenido</small> </h2>
+	</div>
+	<div class='span10'>
+		<form name='adduser' method=post action='' enctype="multipart/form-data" class='well'>
+		<!--LOOP_START-->
+		<label>%label#</label>%input#
+		<!--LOOP_END-->
+		<label></label>
+		<input name='send' value='Registrarme' type='submit' class='btn btn-primary' />
+		<div id='adduser_errorloc' class='errorloc span12' ></div>
+	</form>
+	</div>
+<script  type="text/javascript">
+	var frmvalidator = new Validator("adduser");
+	frmvalidator.EnableOnPageErrorDisplaySingleBox();
+	frmvalidator.addValidation("username","req","Por favor escoje tu nombre de usuario.");
+	frmvalidator.addValidation("username","alnum","Por favor revisa tu nombre de usuario.");
+	frmvalidator.addValidation("password","minlen=6","Tu contrase&ntilde;a debe tener al menos 6 caracteres.");
+	frmvalidator.addValidation("rpassword","eqelmnt=password","Las contrase&ntilde;as no coinciden.");	
+	frmvalidator.addValidation("phrase","alnum_s","Tu frase ha de tener solo letras, n&uacute;meros y espacios.");	
+	frmvalidator.addValidation("fname","alpha_s","Tu nombre ha de tener solo letras y espacios.");	
+	frmvalidator.addValidation("fname","req","Tu nombre es obligatorio.");	
+	frmvalidator.addValidation("profession","alpha_s","Tu profesion ha de tener solo letras y espacios.");	
+</script>
+
+

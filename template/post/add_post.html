@@ -1,0 +1,51 @@
+<script type="text/javascript" src="js/validator.js"></script>
+
+<div class='span8 shadow' >
+	<div class='page-header'>
+		<h2 >Subir un Post<small>Tu contenido hace este sitio genial</small></h2>
+	</div>
+	<div class='span10'>
+		<form name='addpost' method=post action='' enctype="multipart/form-data" class='well'>
+		<!--LOOP_START-->
+		<label>%label#</label>%input#
+		<!--LOOP_END-->
+		<label></label>
+		<input name='send' value='Publicar' type='submit' class='btn btn-primary' />
+		<div id='addpost_errorloc' class='errorloc' ></div>
+		</form>
+	</div>
+	<div class='span12'>	
+		<img src='./media/addpost.jpg' />
+	</div>
+	<script  type="text/javascript">
+	var frmvalidator = new Validator("addpost");
+	frmvalidator.EnableOnPageErrorDisplaySingleBox();
+	frmvalidator.addValidation("title","req","Por favor escribe un titulo.");
+	frmvalidator.addValidation("title","alnum_s","Por favor revisa el titulo.");
+	frmvalidator.addValidation("content","req","El campo de contenido no puede estar vacio.");
+	
+	var post_type = document.getElementsByName('post_type_id')[0];
+	post_type.setAttribute("onchange", 'change_content_type(this.value)');
+
+	var t1 = "<textarea name='content' ></textarea>"
+	t1 += "<span class='help-block'>Puedes usar tags de html para adornar el texto";
+	t1 += " Ejemplo: <b>&lt;b&gt;Negrita&lt;/b&gt;</b><i>&lt;i&gt;Cursiva&lt;/i&gt;</i></span>";
+
+
+	function change_content_type(val){
+		if(val == 2){
+			document.getElementById('content').innerHtml = '';
+			document.getElementById('content').innerHTML = "<input type='file' name='content' />"
+		} 
+	       	if(val == 1 || val == 3){
+			document.getElementById('content').innerHtml = '';			
+			document.getElementById('content').innerHTML = "<input type='text' name='content' /><span class='help-block'>Coloca la direcci&oacute;n de enlace a la p&aacute;gina del video.</span>"			
+		}
+		if(val == 4){
+			document.getElementById('content').innerHtml = '';			
+			document.getElementById('content').innerHTML = t1;			
+		}
+	}
+
+
+	</script>

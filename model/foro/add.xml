@@ -1,0 +1,11 @@
+<form name='cashflow_add' >
+	<title h2='Yupi!' small='No lo gastes todo en un solo lugar.'/>
+	<description><![CDATA[Añade un ingreso que hayas tenido, recuerda <a href='?f=cashflow_cat&a=add' title='Crear categoria'>crear categorias</a> Para asignarles.<br/>Entre más especifico seas, mejores serán los informes.]]></description>
+	<field name='usr_id' type='usr_id' />
+	<field name='flow' type='hidden' default='income' />
+	<field name='date' type='date' label='Fecha' req='Y' help="Selecciona la fecha que recibiste el pago, no necesariamente la de hoy." />
+	<field name='ammount' type='text' label='Valor' req='Y' help='' />
+	<field name='description' type='textarea' label='Descripción' help="Usa información que te ayude a identificar el ingreso cuando veas los reportes. "/>
+	<field name="line_type_id" type="select" label="Referencia" table="forum_category" field="name" restriction='usr_id' req='Y'/>	 
+	<field name='send' type='submit' default='Guardar' class='btn btn-primary' label=' '/>
+</form>

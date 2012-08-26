@@ -1,0 +1,6 @@
+	<div class='menu'>
+		<!--LOOP_START-->
+		<a href='?s=%tg#' class='%class# ' >%name#</a>
+		<!--LOOP_END-->
+	</div>
+

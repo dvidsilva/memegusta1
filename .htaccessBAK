@@ -1,0 +1,54 @@
+options -multiviews
+<IfModule mod_rewrite.c>
+RewriteEngine On 
+RewriteBase /
+RewriteRule ^users$ users.php
+RewriteRule ^login$ login.php
+RewriteRule ^logout$ logout.php
+RewriteRule ^log_out$ log_out.php
+RewriteRule ^forgot$ forgot.php
+RewriteRule ^manage_gigs$ manage_gigs.php
+RewriteRule ^manage_orders$ manage_orders.php
+RewriteRule ^new$ new.php
+RewriteRule ^suggestions$ index.php
+RewriteRule ^search$ search.php
+RewriteRule ^edit$ edit.php
+RewriteRule ^bookmark$ bookmark.php
+RewriteRule ^bookmarks$ bookmarks.php
+RewriteRule ^settings$ settings.php
+RewriteRule ^balance$ balance.php
+RewriteRule ^order$ order.php
+RewriteRule ^orders$ orders.php
+RewriteRule ^inbox$ inbox.php
+RewriteRule ^conversations/([^/.]*)?$ conversations.php?u=$1&%{QUERY_STRING}
+RewriteRule ^upload$ upload.php
+RewriteRule ^check_new$ check_new.php
+RewriteRule ^spam$ spam.php
+RewriteRule ^thank_you$ thank_you.php
+RewriteRule ^track$ track.php
+RewriteRule ^send_track$ send_track.php
+RewriteRule ^confirmemail$ confirmemail.php
+RewriteRule ^rss$ rss.php
+RewriteRule ^terms_of_service$ terms_of_service.php
+RewriteRule ^privacy_policy$ privacy_policy.php
+RewriteRule ^about$ about.php
+RewriteRule ^contact$ contact.php
+RewriteRule ^advertising$ advertising.php
+RewriteRule ^signup$ signup.php
+RewriteRule ^forgotpassword$ forgotpassword.php
+RewriteRule ^feature$ feature.php
+RewriteRule ^feature_success$ feature_success.php
+RewriteRule ^purchases$ purchases.php
+RewriteRule ^categories/([^/.]+)?$ cat.php?cid=$1&%{QUERY_STRING}
+RewriteRule ^user/([^/.]+)?$ user.php?uname=$1&%{QUERY_STRING}
+RewriteRule ^tags/([^/.]+)/([^/.]+)?$ tags.php?cid=$1&tag=$2&%{QUERY_STRING}
+RewriteRule ^([^/.]+)/([^/.]+)/([^/.]*)?$ view.php?title=$1&id=$2&%{QUERY_STRING}
+</IfModule>
+<IfModule mod_security.c> 
+   # Turn off mod_security filtering. 
+   SecFilterEngine Off 
+
+   # The below probably isn't needed, 
+   # but better safe than sorry. 
+   SecFilterScanPOST Off 
+</IfModule>

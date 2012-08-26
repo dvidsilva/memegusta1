@@ -1,0 +1,30 @@
+<script type="text/javascript" src="js/validator.js">
+</script>
+
+<div class='posts multiple' >
+	<div class='form'>
+<form name='add' method=post action='' enctype="multipart/form-data" >
+<h2 class='title'>Subir un Post</h2>
+<div class='instructions'>
+<span style='margin:5px; padding:3px;display:block; '>Puedes usar tags de html para adornar el texto<br/></span>
+Ejemplo: <b>&lt;b&gt;Negrita&lt;/b&gt;</b><i>&lt;i&gt;Cursiva&lt;/i&gt;</i><br/>
+
+</div>
+<table class='form' >
+		<!--LOOP_START-->
+		<tr><td>%label#</td><td>%input#</td></tr>
+		<!--LOOP_END-->
+		<tr><td></td><td><input name='send' value='Publicar' type='submit' class='button' /></td></tr>		
+		<tr><td colspan=2 ><div id='add_errorloc' class='errorloc' ></div></td></tr>
+	</table
+</form>
+
+<script  type="text/javascript">
+	var frmvalidator = new Validator("add");
+	frmvalidator.EnableOnPageErrorDisplaySingleBox();
+	frmvalidator.addValidation("title","req","Por favor escribe un titulo.");
+	frmvalidator.addValidation("title","alnum_s","Por favor revisa el titulo.");
+	frmvalidator.addValidation("description","req","El campo de contenido no puede estar vacio.");
+</script>
+</div>
+</div>

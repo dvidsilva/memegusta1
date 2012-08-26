@@ -1,0 +1,110 @@
+[29-Nov-2011 12:54:01] PHP Fatal error:  Call to undefined function q2ar() in /home/memegust/public_html/m/controller/posts.php on line 31
+[29-Nov-2011 13:03:54] PHP Fatal error:  Call to undefined function q2ar() in /home/memegust/public_html/m/controller/posts.php on line 31
+[29-Nov-2011 14:11:43] PHP Fatal error:  Cannot use string offset as an array in /home/memegust/public_html/m/controller/posts.php on line 120
+[29-Nov-2011 14:12:10] PHP Fatal error:  Cannot use string offset as an array in /home/memegust/public_html/m/controller/posts.php on line 120
+[29-Nov-2011 14:15:09] PHP Fatal error:  Cannot use string offset as an array in /home/memegust/public_html/m/controller/posts.php on line 120
+[29-Nov-2011 14:15:17] PHP Fatal error:  Cannot use string offset as an array in /home/memegust/public_html/m/controller/posts.php on line 122
+[30-Nov-2011 14:59:24] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/memegust/public_html/m/controller/posts.php on line 208
+[30-Nov-2011 14:59:45] PHP Fatal error:  Call to undefined function q2as() in /home/memegust/public_html/m/controller/posts.php on line 206
+[30-Nov-2011 15:00:02] PHP Fatal error:  Call to undefined function q2as() in /home/memegust/public_html/m/controller/posts.php on line 206
+[30-Nov-2011 15:00:06] PHP Fatal error:  Call to undefined function q2as() in /home/memegust/public_html/m/controller/posts.php on line 206
+[30-Nov-2011 15:00:28] PHP Fatal error:  Call to undefined method posts::q2as() in /home/memegust/public_html/m/controller/posts.php on line 206
+[30-Nov-2011 16:36:10] PHP Fatal error:  Call to undefined function parse_template() in /home/memegust/public_html/m/controller/posts.php on line 226
+[30-Nov-2011 16:36:36] PHP Fatal error:  Call to undefined function parse_template() in /home/memegust/public_html/m/controller/posts.php on line 226
+[30-Nov-2011 16:36:42] PHP Fatal error:  Call to undefined function parse_template() in /home/memegust/public_html/m/controller/posts.php on line 226
+[30-Nov-2011 16:44:38] PHP Warning:  include(./controller/posts.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/memegust/public_html/m/dvid.class.php on line 154
+[30-Nov-2011 16:44:38] PHP Warning:  include(./controller/posts.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/memegust/public_html/m/dvid.class.php on line 154
+[30-Nov-2011 16:44:38] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening './controller/posts.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/memegust/public_html/m/dvid.class.php on line 154
+[30-Nov-2011 16:44:38] PHP Fatal error:  Class 'posts' not found in /home/memegust/public_html/m/index.php on line 72
+[02-Dec-2011 10:38:24] PHP Parse error:  syntax error, unexpected ';' in /home/memegust/public_html/m/controller/posts.php on line 226
+[02-Dec-2011 10:39:44] PHP Fatal error:  Class 'upload' not found in /home/memegust/public_html/m/controller/posts.php on line 164
+[02-Dec-2011 12:03:03] PHP Parse error:  syntax error, unexpected '.' in /home/memegust/public_html/m/index.php on line 12
+[06-Dec-2011 11:12:44] PHP Fatal error:  Call to undefined function q2ar() in /home/memegust/public_html/m/dvid.class.php on line 162
+[06-Dec-2011 16:53:29] PHP Fatal error:  Call to private method dvid::restrict() from context 'usr' in /home/memegust/public_html/m/controller/usr.php on line 56
+[06-Dec-2011 16:55:25] PHP Parse error:  syntax error, unexpected ')' in /home/memegust/public_html/m/dvid.class.php on line 297
+[07-Dec-2011 15:52:51] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/memegust/public_html/m/controller/posts.php on line 99
+[07-Dec-2011 16:34:06] PHP Fatal error:  Call to undefined method usr::show_posts() in /home/memegust/public_html/m/controller/usr.php on line 106
+[07-Dec-2011 16:43:59] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/memegust/public_html/m/controller/posts.php on line 104
+[07-Dec-2011 16:44:08] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/memegust/public_html/m/controller/posts.php on line 104
+[12-Dec-2011 12:00:55] PHP Parse error:  syntax error, unexpected '}' in /home/memegust/public_html/m/dvid.class.php on line 86
+[12-Dec-2011 12:01:12] PHP Parse error:  syntax error, unexpected '{' in /home/memegust/public_html/m/controller/posts.php on line 213
+[12-Dec-2011 12:02:34] PHP Parse error:  syntax error, unexpected '{' in /home/memegust/public_html/m/controller/posts.php on line 213
+[12-Dec-2011 12:02:36] PHP Parse error:  syntax error, unexpected '{' in /home/memegust/public_html/m/controller/posts.php on line 213
+[12-Dec-2011 12:03:18] PHP Parse error:  syntax error, unexpected '{' in /home/memegust/public_html/m/controller/posts.php on line 213
+[12-Dec-2011 12:07:30] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/memegust/public_html/m/controller/posts.php on line 211
+[12-Dec-2011 12:07:30] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/memegust/public_html/m/controller/posts.php:211) in /home/memegust/public_html/m/controller/posts.php on line 191
+[12-Dec-2011 12:18:46] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/memegust/public_html/m/dvid.class.php on line 145
+[12-Dec-2011 12:18:46] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/memegust/public_html/m/controller/posts.php on line 209
+[25-Dec-2011 10:01:59] PHP Fatal error:  Class 'meme' not found in /home/memegust/public_html/m/index.php on line 84
+[25-Dec-2011 17:58:52] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/memegust/public_html/m/dvid.class.php on line 350
+[25-Dec-2011 19:33:29] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/memegust/public_html/m/dvid.class.php on line 253
+[25-Dec-2011 19:33:29] PHP Warning:  Invalid argument supplied for foreach() in /home/memegust/public_html/m/dvid.class.php on line 254
+[26-Dec-2011 18:20:15] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 32 bytes) in /home/memegust/public_html/m/controller/class.upload.php on line 4715
+[08-Jan-2012 11:34:12] PHP Warning:  getimagesize(/tmp/phpnJaHiR) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in /home/memegust/public_html/m/controller/class.upload.php on line 2795
+[08-Jan-2012 11:34:12] PHP Warning:  fopen(/tmp/phpnJaHiR) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home/memegust/public_html/m/controller/class.upload.php on line 2854
+[08-Jan-2012 11:34:12] PHP Warning:  move_uploaded_file(/tmp/phpnJaHiR) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory in /home/memegust/public_html/m/controller/class.upload.php on line 3553
+[08-Jan-2012 11:34:12] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpnJaHiR' to './uploads/meme/15c83a85fb57a758d698b0b71891205c.jpg' in /home/memegust/public_html/m/controller/class.upload.php on line 3553
+[08-Jan-2012 11:41:23] PHP Warning:  getimagesize(/tmp/phpVYlL7f) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in /home/memegust/public_html/m/controller/class.upload.php on line 2795
+[08-Jan-2012 11:41:23] PHP Warning:  fopen(/tmp/phpVYlL7f) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home/memegust/public_html/m/controller/class.upload.php on line 2854
+[08-Jan-2012 11:41:23] PHP Warning:  move_uploaded_file(/tmp/phpVYlL7f) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory in /home/memegust/public_html/m/controller/class.upload.php on line 3553
+[08-Jan-2012 11:41:23] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpVYlL7f' to './uploads/meme/c5e85b976c8d1683c94a1582ac0baecf.jpg' in /home/memegust/public_html/m/controller/class.upload.php on line 3553
+[08-Jan-2012 12:05:02] PHP Parse error:  syntax error, unexpected ';' in /home/memegust/public_html/m/controller/meme.php on line 166
+[08-Jan-2012 12:05:47] PHP Warning:  getimagesize(/tmp/phpz8F06l) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in /home/memegust/public_html/m/controller/class.upload.php on line 2795
+[08-Jan-2012 12:05:47] PHP Warning:  fopen(/tmp/phpz8F06l) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home/memegust/public_html/m/controller/class.upload.php on line 2854
+[08-Jan-2012 12:05:47] PHP Warning:  move_uploaded_file(/tmp/phpz8F06l) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory in /home/memegust/public_html/m/controller/class.upload.php on line 3553
+[08-Jan-2012 12:05:47] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpz8F06l' to './uploads/meme/cf76a6ce680e0ee576c0916a58d0f1b6.jpg' in /home/memegust/public_html/m/controller/class.upload.php on line 3553
+[08-Jan-2012 12:05:47] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/memegust/public_html/m/controller/class.upload.php:2795) in /home/memegust/public_html/m/controller/meme.php on line 94
+[08-Jan-2012 12:06:05] PHP Warning:  getimagesize(/tmp/phpz6YZ16) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in /home/memegust/public_html/m/controller/class.upload.php on line 2795
+[08-Jan-2012 12:06:05] PHP Warning:  fopen(/tmp/phpz6YZ16) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home/memegust/public_html/m/controller/class.upload.php on line 2854
+[08-Jan-2012 12:06:05] PHP Warning:  move_uploaded_file(/tmp/phpz6YZ16) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory in /home/memegust/public_html/m/controller/class.upload.php on line 3553
+[08-Jan-2012 12:06:05] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpz6YZ16' to './uploads/meme/2bca4d16a1051db10edb955b5ec12930.jpg' in /home/memegust/public_html/m/controller/class.upload.php on line 3553
+[08-Jan-2012 12:06:05] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/memegust/public_html/m/controller/class.upload.php:2795) in /home/memegust/public_html/m/controller/meme.php on line 94
+[08-Jan-2012 12:38:27] PHP Warning:  move_uploaded_file(/tmp/phpbcop0x) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory in /home/memegust/public_html/m/controller/class.upload.php on line 3553
+[08-Jan-2012 12:38:27] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpbcop0x' to './uploads/meme/f5e8ec772941d0cedca305ff38304ae2.jpg' in /home/memegust/public_html/m/controller/class.upload.php on line 3553
+[08-Jan-2012 12:38:27] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/memegust/public_html/m/controller/class.upload.php:3553) in /home/memegust/public_html/m/controller/meme.php on line 94
+[08-Jan-2012 12:40:51] PHP Warning:  move_uploaded_file(/tmp/phpUBAbjH) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory in /home/memegust/public_html/m/controller/class.upload.php on line 3553
+[08-Jan-2012 12:40:51] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpUBAbjH' to './uploads/meme/ead4d62bedcf66fe0f11f5d99d661265.jpg' in /home/memegust/public_html/m/controller/class.upload.php on line 3553
+[08-Jan-2012 12:40:51] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/memegust/public_html/m/controller/class.upload.php:3553) in /home/memegust/public_html/m/controller/meme.php on line 94
+[01-Feb-2012 13:43:52] PHP Warning:  array_keys() expects parameter 1 to be array, integer given in /home/memegust/public_html/m/dvid.class.php on line 257
+[01-Feb-2012 13:43:52] PHP Warning:  Invalid argument supplied for foreach() in /home/memegust/public_html/m/dvid.class.php on line 257
+[01-Feb-2012 13:43:52] PHP Warning:  preg_replace() [<a href='function.preg-replace'>function.preg-replace</a>]: Empty regular expression in /home/memegust/public_html/m/dvid.class.php on line 260
+[01-Feb-2012 13:43:52] PHP Warning:  array_keys() expects parameter 1 to be array, integer given in /home/memegust/public_html/m/dvid.class.php on line 257
+[01-Feb-2012 13:43:52] PHP Warning:  Invalid argument supplied for foreach() in /home/memegust/public_html/m/dvid.class.php on line 257
+[01-Feb-2012 13:43:52] PHP Warning:  preg_replace() [<a href='function.preg-replace'>function.preg-replace</a>]: Empty regular expression in /home/memegust/public_html/m/dvid.class.php on line 260
+[01-Feb-2012 13:44:14] PHP Warning:  array_keys() expects parameter 1 to be array, integer given in /home/memegust/public_html/m/dvid.class.php on line 257
+[01-Feb-2012 13:44:14] PHP Warning:  Invalid argument supplied for foreach() in /home/memegust/public_html/m/dvid.class.php on line 257
+[01-Feb-2012 13:44:14] PHP Warning:  preg_replace() [<a href='function.preg-replace'>function.preg-replace</a>]: Empty regular expression in /home/memegust/public_html/m/dvid.class.php on line 260
+[28-Apr-2012 12:05:21] PHP Warning:  require_once(./controller/mobile_device_detect.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/memegust/public_html/m/index.php on line 4
+[28-Apr-2012 12:05:21] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required './controller/mobile_device_detect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/memegust/public_html/m/index.php on line 4
+[28-Apr-2012 12:05:52] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/memegust/public_html/m/index.php:9) in /home/memegust/public_html/m/dvid.class.php on line 6
+[13-May-2012 00:44:09] PHP Parse error:  syntax error, unexpected '}' in /home/memegust/public_html/m/controller/posts.php on line 287
+[13-May-2012 01:06:00] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/memegust/public_html/m/controller/usr.php:101) in /home/memegust/public_html/m/index.php on line 129
+[13-May-2012 01:06:00] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/memegust/public_html/m/controller/usr.php:101) in /home/memegust/public_html/m/index.php on line 130
+[13-May-2012 01:06:00] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/memegust/public_html/m/controller/usr.php:101) in /home/memegust/public_html/m/index.php on line 131
+[13-May-2012 01:06:01] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/memegust/public_html/m/controller/usr.php:101) in /home/memegust/public_html/m/index.php on line 129
+[13-May-2012 01:06:01] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/memegust/public_html/m/controller/usr.php:101) in /home/memegust/public_html/m/index.php on line 130
+[13-May-2012 01:06:01] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/memegust/public_html/m/controller/usr.php:101) in /home/memegust/public_html/m/index.php on line 131
+[21-Jun-2012 01:53:12] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/memegust/public_html/m/controller/usr.php on line 152
+[21-Jun-2012 01:53:43] PHP Parse error:  syntax error, unexpected '}' in /home/memegust/public_html/m/controller/usr.php on line 161
+[05-Jul-2012 23:08:40] PHP Fatal error:  Call to undefined method usr::show_posts() in /home/memegust/public_html/m/index.php on line 127
+[10-Jul-2012 17:48:14] PHP Warning:  POST Content-Length of 26246905 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[15-Jul-2012 10:41:48] PHP Warning:  POST Content-Length of 26246891 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[15-Jul-2012 10:43:13] PHP Warning:  POST Content-Length of 26246898 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[15-Jul-2012 10:48:46] PHP Warning:  POST Content-Length of 26246898 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[17-Jul-2012 18:26:49] PHP Warning:  POST Content-Length of 732584399 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[17-Jul-2012 18:29:03] PHP Warning:  POST Content-Length of 732584399 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[17-Jul-2012 18:31:22] PHP Warning:  POST Content-Length of 732584399 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[17-Jul-2012 18:31:23] PHP Warning:  POST Content-Length of 732584399 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[17-Jul-2012 18:31:24] PHP Warning:  POST Content-Length of 732584399 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[18-Jul-2012 23:27:43] PHP Fatal error:  Call to undefined method usr::show_posts() in /home/memegust/public_html/m/index.php on line 127
+[12-Aug-2012 16:29:08] PHP Fatal error:  Call to undefined method usr::show_posts() in /home/memegust/public_html/m/index.php on line 127
+[13-Aug-2012 10:31:24] PHP Fatal error:  Call to undefined method usr::show_posts() in /home/memegust/public_html/m/index.php on line 127
+[18-Aug-2012 22:44:19] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/memegust/public_html/m/controller/usr.php:139) in /home/memegust/public_html/m/controller/usr.php on line 142
+[18-Aug-2012 22:44:27] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/memegust/public_html/m/controller/usr.php:139) in /home/memegust/public_html/m/controller/usr.php on line 142
+[18-Aug-2012 22:45:09] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/memegust/public_html/m/controller/usr.php:139) in /home/memegust/public_html/m/controller/usr.php on line 142
+[18-Aug-2012 23:46:55] PHP Fatal error:  Call to undefined method usr::show_posts() in /home/memegust/public_html/m/index.php on line 101
+[18-Aug-2012 23:47:15] PHP Fatal error:  Call to undefined method usr::show_posts() in /home/memegust/public_html/m/index.php on line 101
+[18-Aug-2012 23:47:34] PHP Fatal error:  Call to undefined method usr::show_posts() in /home/memegust/public_html/m/index.php on line 101
+[18-Aug-2012 23:48:53] PHP Fatal error:  Call to undefined method usr::show_posts() in /home/memegust/public_html/m/index.php on line 101
+[19-Aug-2012 00:25:48] PHP Fatal error:  Call to undefined method usr::show_posts() in /home/memegust/public_html/m/index.php on line 101
+[22-Aug-2012 21:00:22] PHP Fatal error:  Call to undefined method usr::show_posts() in /home/memegust/public_html/m/index.php on line 101
